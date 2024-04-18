@@ -7,22 +7,19 @@ namespace SystemHelper
 	{
 		public static T ReadLineAs<T>(string message)
 		{
-			var tryParseMethod = typeof(T).GetMethod("TryParse", new[] { typeof(string), typeof(T).MakeByRefType() });
+			var tryParseMethod = typeof(T).GetMethod("TryParse", [typeof(string), typeof(T).MakeByRefType()])
+			?? throw new NotSupportedException($"Type {typeof(T)} does not have a TryParse method.");
 
-			if (tryParseMethod == null)
-			{
-				throw new NotSupportedException($"Type {typeof(T)} does not have a TryParse method.");
-			}
 
-			T result = default;
+			T result = default!;
 			string input;
 
 			do
 			{
 				Console.Write(message);
-				input = Console.ReadLine() ?? string.Empty;
+				input = Console.ReadLine()!;
 			}
-			while (!(bool)tryParseMethod.Invoke(null, new object[] { input, result }));
+			while (!(bool)tryParseMethod.Invoke(null, [input, result])!);
 
 			return result;
 		}
