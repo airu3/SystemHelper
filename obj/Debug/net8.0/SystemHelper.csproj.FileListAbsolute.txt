@@ -1,0 +1,12 @@
+I:\code\cs\SystemHelper\bin\Debug\net8.0\SystemHelper.deps.json
+I:\code\cs\SystemHelper\bin\Debug\net8.0\SystemHelper.dll
+I:\code\cs\SystemHelper\bin\Debug\net8.0\SystemHelper.pdb
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.GeneratedMSBuildEditorConfig.editorconfig
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.AssemblyInfoInputs.cache
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.AssemblyInfo.cs
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.csproj.CoreCompileInputs.cache
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.sourcelink.json
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.dll
+I:\code\cs\SystemHelper\obj\Debug\net8.0\refint\SystemHelper.dll
+I:\code\cs\SystemHelper\obj\Debug\net8.0\SystemHelper.pdb
+I:\code\cs\SystemHelper\obj\Debug\net8.0\ref\SystemHelper.dll
