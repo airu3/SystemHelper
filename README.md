@@ -21,8 +21,7 @@
 まずは、このプログラムを手に入れるのだ！ソースコードをダウンロードし、以下の手順で進もう。
 
 ```bash
-git clone https://your-repository-url.git
-cd your-repository
+git clone https://github.com/airu3/SystemHelper.git
 ```
 
 ## 📜 使用方法
